@@ -273,3 +273,195 @@
 // }
 
 // random(1,5);
+
+// Question 1
+// console.log(`_________Question 1_______`);
+// let str = "harshit";
+// console.log(str.length); //7
+
+// console.log(`_________Question 2_______`);
+// let fName = "Harshit";
+// console.log(fName[0]); // H
+
+// console.log(`_________Question 3_______`);
+// console.log(fName[(fName.length)-1]); //t error
+
+
+// console.log(`_________Question 4_______`);
+// let x = "apnacollege"+123;
+// console.log(x); // apnacollege123
+
+// console.log(`_________Question 5_______`);
+// let y = "";
+// let z = " ";
+// console.log(y.length); // 0
+// console.log(z.length); // 1
+
+// let color = "yellow";
+
+// if(color=="red"){
+//     console.log("stop");
+// }
+// if(color=="yellow"){
+//     console.log("wait");
+// }
+// if(color=="green"){
+//     console.log("go");
+// }
+
+// let size = "a";
+// if(size == 'xl'){
+//     console.log(250);
+// }else if(size == 'l'){
+//     console.log(200);
+// }else if(size == 'm'){
+//     console.log(150);
+// }else if(size == 's'){
+//     console.log(100);
+// }else{
+//     console.log("wrong input");
+// }
+
+// let str = "apps";
+// if(str[0]=='a' && str.length>3){
+//     console.log("good");
+// }else{
+//     console.log("bad");
+// }
+
+// let num = 12;
+// if((num%3===0)&&((num+1==15) || (num-1==11))){
+//     console.log("safe");
+// }else{
+//     console.log("unsafe");
+// }
+
+// let day = 8;
+// switch (day) {
+//     case 1:
+//         console.log("monday");
+//         break;
+//     case 2:
+//         console.log("tuesday");
+//         break;
+//     case 3:
+//         console.log("wednesday");
+//         break;
+//     case 4:
+//         console.log("thrusday");
+//         break;
+//     case 5:
+//         console.log("friday");
+//         break;
+//     case 6:
+//         console.log("saturday");
+//         break;
+//     case 7:
+//         console.log("sunday");
+//         break;
+//     default:
+//         console.log("wrong input");
+//         break;
+// }
+
+// let num = 12301;
+// if(num%10==0){
+//     console.log("good");
+// }else{
+//     console.log("bad");
+// }
+
+// let userName = "Harshit";
+// let age = 34;
+// console.log(`${userName} is ${age} years old age.`);
+
+// let quater = prompt("enter your quater");
+// let inputQuater = parseInt(quater);
+// switch(inputQuater){
+//     case 1:
+//         console.log("J,F,M");
+//         break;
+//     case 2:
+//         console.log("A,M,J")
+//         break;
+//     case 3:
+//         console.log("J,A,S");
+//         break;
+//     case 4:
+//         console.log("O,N,D");
+//         break;
+//     default:
+//         console.log("Wrong input");
+//         break;
+// }
+
+// let str = "Aapa
+
+// let x = 125;
+// let y = 238;
+// let z = 238;
+// if(x>y && x>z){
+//     console.log(x, "x");
+// }else if(y>x && y>z){
+//     console.log(y, "y");
+// }else if(z>x && z>y){
+//     console.log(z, "z");
+// }
+
+// let x = 32123;
+// let y = 47852;
+
+// if(x%10==y%10){
+//     console.log("same last digit");
+// }else{
+//     console.log("different last digit");
+// }
+
+// let str = "   help!   ";
+// console.log(str.trim().toUpperCase());
+
+// let nam = "ApnaCollege";
+// console.log(nam.slice(4,9)); //Colle
+// console.log(nam.indexOf("na")); // 2
+// console.log(nam.replace("Apna","Our")); //OurCollege
+// let newNam = nam.slic
+
+// let months = ['jan', 'jul', 'mar', 'aug'];
+// months.shift();
+// months.shift();
+// months.unshift("june");
+// months.unshift("july");
+// console.log(months);
+// months.splice(0,2, "july", "june")
+// console.log(months);
+
+// let lang = ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql']
+// console.log(lang.reverse().indexOf('javascript'));
+
+// let arr = [7,9,0,-2];
+// let n = 3;
+// let ans = arr.slice(arr.length-n);
+// console.log(ans);
+
+// let str = "harshit";
+// if(str.length!=0){
+//     console.log("not blank")
+// }else{
+//     console.log("blank")
+// }
+
+// let str = "haRShiT";
+// let n = 4;
+// if(str[n]==str[n].toLowerCase()){
+//     console.log("lower");
+// }else{
+//     console.log("upper");
+// }
+
+// let str = "haRShiT";
+// let n = 's';
+// if(str.indexOf(n)==-1){
+//     console.log("not exist");
+// }else{
+//     console.log("exist")
+// }
