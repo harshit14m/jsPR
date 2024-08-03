@@ -465,3 +465,18 @@
 // }else{
 //     console.log("exist")
 // }
+
+// const student = {
+//     name: "Harshit",
+//     age: 34,
+//     english: 100,
+//     maths: 90,
+//     science: 80,
+//     getAvg(){
+//         console.log(this);
+//         let avg = ((this.english+this.maths+this.science)/3)
+//         console.log(`${this.name} got ${avg} average marks and grade equals to ${this.grade}.`)
+//     },
+//     grade: "A+" 
+// }
+// console.log(student.getAvg());
