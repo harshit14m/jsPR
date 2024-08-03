@@ -480,3 +480,45 @@
 //     grade: "A+" 
 // }
 // console.log(student.getAvg());
+
+// console.log("Hello");
+// console.log("Hello");
+// let a = 5;
+// try{
+//     console.log(a);
+// }catch{
+//     console.log("caught error... a is not defined.")
+// }
+// console.log("Hello2");
+// console.log("Hello2");
+// console.log("Hello2");
+
+// let sum = (a,b) => {
+//     console.log(a+b);
+// };
+// sum(3,5);
+
+// const cube = (a) => {console.log(a*a*a)};
+// cube(9);
+
+// const pow = (x,y) => {
+//     console.log(x**y);
+// }
+
+// pow(3,5);
+
+// const mul = (a,b) => a*b;
+
+// let x = mul(3,5);
+// console.log(x);
+
+// const sum = (a,b) => a+b;
+// console.log(sum(5,6));
+
+// console.log("hi there!!!");
+// const func = () => {console.log("delhi")};
+// setTimeout(func,1000);
+// console.log("welcome to");
+
+// let x = setInterval(()=>console.log("hello"), 2000);
+// let y = setInterval(()=>console.log("Harshit"), 3000);
