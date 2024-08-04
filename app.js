@@ -522,3 +522,139 @@
 
 // let x = setInterval(()=>console.log("hello"), 2000);
 // let y = setInterval(()=>console.log("Harshit"), 3000);
+
+// const student = {
+//     name: "Aman",
+//     marks: 95,
+//     prop: this,
+//     getName: function(){
+//         console.log(this);
+//         return this.name;
+//     },
+//     getMarks: () => {
+//         console.log(this);
+//         return this.marks;
+//     },
+//     getInfo1: function(){
+//         setTimeout(() => {
+//             console.log(this);
+//         }, 2000);
+//     },
+//     getInfo2:  function(){
+//         setTimeout(function(){
+//             console.log(this);
+//         }, 2000);
+//     },
+// };
+
+// let sqN = (a) => {
+//      return a*a;
+// }
+
+// console.log(sqN(5));
+
+// let sqNo = (n) => (n*n);
+// console.log(sqNo(6));
+
+// let func = () => {
+//     setInterval(() => {
+//         console.log("Hello world");
+//     }, 2000);
+// }
+
+// func();
+
+// let func = function(){
+    
+//         setTimeout(() => {
+//             console.log("hello World");
+//     }, 2000)};
+
+// func();
+
+
+// let id = setInterval(() => {
+//     console.log("Hello world");
+// }, 2000);
+
+// setTimeout(() => {
+//     clearInterval(id);
+//     console.log("clear Interval done")
+// }, 10000);
+
+// let arr = [ 2,4,6,8]
+// let sum = 0;
+// let arrayAverage = (arr) => {
+//     for(let i=0; i<arr.length; i++){
+//         sum = sum + arr[i];
+//     }
+//     console.log(sum/arr.length);
+// }
+
+// arrayAverage(arr);
+
+// let even = (n) => {
+//     if(n%2 == 0){
+//         return "even";
+//     }else{
+//         return "not even";
+//     }
+// };
+
+// console.log(even(4));
+
+
+// const object = {
+//     message: 'Hello,World!',
+//     logMessage(){
+//         console.log(this.message);
+//     }
+// };
+// setTimeout(object.logMessage,1000);
+
+
+// let length = 4;
+// function callback() {
+//     console.log(this.length);
+// }
+
+
+// const object = {
+//     length: 5,
+//     method(callback) {
+//         callback();
+//     },
+// };
+
+// object.method(callback,1,2);
+
+// const arr = [5,5,5,2,2,2,2,2,9,4];
+// const counts = {};
+// for(const num of arr){
+//     counts[num] = counts[num]?counts[num]+1:1;
+// }
+
+// console.log(counts);
+// console.log(counts[5]);
+
+// const arr = [5,5,5,2,2,2,2,2,9,4];
+// count = {};
+// for(let numb of arr){
+//     count[numb] = count[numb]?count[numb]+1:1;
+// }
+// console.log(count);
+
+// function countString(str, letter){
+//     let count = 0;
+//     for(let i=0; i<str.length; i++){
+//         if(str.charAt(i)===letter){
+//             count=count+1
+//         }
+//     }
+//     return count;
+// }
+
+// const str = prompt("enter a string");
+// const letter = prompt("enter a letter to check");
+// const result = countString(str, letter)
+// console.log(result);
