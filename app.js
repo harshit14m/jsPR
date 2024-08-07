@@ -658,3 +658,210 @@
 // const letter = prompt("enter a letter to check");
 // const result = countString(str, letter)
 // console.log(result);
+
+// let arr = [1,2,3,4,5];
+// function printel(el){
+//     console.log(el);
+// };
+// let printEl = function(El){
+//     console.log(El);
+// }
+
+// let printEl = (Els) => {
+//     console.log(Els)
+// }
+// printEl(arr);
+
+// let printEl = (el) => {
+//     console.log(el);
+// };
+
+// arr.forEach(printEl);
+
+// arr.forEach(function(el){
+//     console.log(el);
+// })
+
+// arr.forEach((el) =>{
+//     console.log(el);
+// })
+
+// let arr = [{
+//     nam: "harshit",
+//     number: 90
+// },{
+//     nam: "hanu",
+//     number: 100
+// },{
+//     nam: "shikha",
+//     number: 95
+// }];
+// arr.forEach((el) => {
+//     console.log(el.number);
+// })
+
+// let arr = [1,2,3,4,5,6];
+
+// let double = function(el) {
+//     console.log(el*2);
+// }
+
+// arr.map(double);
+
+// let double = arr.map(function(el) {
+//     return el*2;
+// });
+
+// let double = arr.map((el) => {
+//     return el*2;
+// });
+
+// console.log(double[2]);
+
+// let student = [{
+//     nam: "harshit",
+//     number: 90
+// },{
+//     nam: "hanu",
+//     number: 100
+// },{
+//     nam: "shikha",
+//     number: 95
+// }];
+
+// let newStudent = student.map((el)=> {
+//     return el.number/10;
+// })
+
+// let nums = [2,6,8,4]
+
+// let newNums = nums.filter((el) => {
+    // return el%2 == 0;
+    // return el%2 != 0;
+    // return el<5;
+    // return el>5;
+// });
+// console.log(newNums);
+
+// let ever = nums.every((el) => {
+//     return el%2!=0;
+// });
+// console.log(ever);
+
+// let som = nums.some((el) => {
+//     return el%2!=0;
+// })
+// console.log(som);
+
+// let arr = [1,2,3,4];
+// let finalVal = arr.reduce((res,el) => res/el);
+// console.log(finalVal);
+
+// let nums = [2,3,34,5,13,4,7,8,1,2,56];
+// let finalRes = nums.reduce((res, el) => {
+//     if(res<el){
+//         res = el;
+//     }
+//     return res;
+// });
+// console.log(finalRes);
+
+// let nums = [2,3,34,5,130,40,70,80,10,20,560];
+// let result = nums.every((el)=>{
+//     return el%10==0;
+// });
+// console.log(result);
+
+// let nums = [2,3,34,5,130,40,70,80,10,20,560];
+// function getMin(nums) {
+//     let ans = nums.reduce((res,el) =>{
+//         if(res<el){
+//             return res;
+//         }else{
+//             return el;
+//         }
+//     });
+//     return ans;
+// }
+// console.log(getMin());
+// let ans = nums.reduce((res,el) =>{
+//     if(res<el){
+//         return res;
+//     }else{
+//         return el;
+//     }
+// });
+// console.log(ans);
+
+// let sum = function(a,b=13){
+//     return a+b;
+// };
+// console.log(sum(14,3));
+
+// console.log(..."Harshit");
+
+// let nums = [212,23,34,5,1340,40,70,80,10,20,-560];
+// console.log(Math.min(...nums));
+// console.log(Math.max(...nums));
+// console.log(...nums);
+// let arr = [...nums];
+// console.log(nums);
+// console.log(arr);
+
+// let char = "harshit";
+// let newChar = [...char];
+// console.log(char);
+// console.log(newChar);
+
+// let odd = [1,3,5,7,9];
+// let even =[2,4,6,8,10];
+// let numb = [...odd,...even];
+// let numbs = [...even, ...odd];
+// console.log(numb);
+// console.log(numbs);
+
+// let data = {
+//     email: "asdf@gamil.com",
+//     password: "asdf"
+// }
+// let dataCopy = {...data, id: 213};
+// console.log(dataCopy);
+// console.log(data);
+// data.id = 123;
+// console.log(data);
+
+// let odd = [1,3,5,7,9];
+// let oddObj ={...odd};
+// console.log(oddObj);
+// console.log(..."harshit");
+// console.log([..."harshit"]);
+// console.log({..."harshit"});
+
+// function sum(...args){
+//     for(let i=0; i<args.length; i++){
+//         console.log("you gave us:", args[i]);
+//     }
+// };
+// sum(1,2,3,4,5,6);
+
+// function min(a,b,c,d){
+//     console.log(arguments);
+// }
+
+// min(1,2,3,4);
+
+// function min(...args){
+//     return args.reduce((min,el) => {
+//         if(min>el){
+//             return el;
+//         }else {
+//             return min;
+//         }
+//     })
+// };
+
+// console.log(min(1,2,-3,-4,-1,5));
+
+let names =["tony", "bruce", "steve", "peter", ];
+let [winner, runner] = ["steve", "bruce"];
+console.log(winner, runner);
