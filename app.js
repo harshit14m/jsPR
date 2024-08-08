@@ -862,6 +862,74 @@
 
 // console.log(min(1,2,-3,-4,-1,5));
 
-let names =["tony", "bruce", "steve", "peter", ];
-let [winner, runner] = ["steve", "bruce"];
-console.log(winner, runner);
+// let names =["tony", "bruce", "steve", "peter", ];
+// let [winner, runner] = ["steve", "bruce"];
+// console.log(winner, runner);
+
+// let nums = [1,2,3,4,5];
+// let double = nums.map(function(el) {return el*2});
+// console.log(double);
+
+// let doubles = nums.map((els)=>{
+//     return els*2;
+// })
+// console.log(doubles);
+
+// let student = [{
+//     nam:"harshit",
+//     mark:90
+// },{
+//     nam: "goldy",
+//     mark: 89
+// }]
+// let gpa = student.map((el)=> {
+//     return el.mark/10;
+// });
+// console.log(gpa);
+
+// let nums = [1,2,3,4,5];
+
+// let square = nums.map((el) => {el**2});
+// let sum = nums.reduce((res, el)=>{
+//     return res + el;
+// })
+
+// let avg = sum/nums.length;
+// console.log(avg);
+
+// let nums = [1,2,3,4,5];
+// let finalRes = nums.map((el)=>{
+//     return el+5;
+// })
+// console.log(finalRes);
+
+// let strings = ["adam","bob","catlyn","donald","eve"];
+// let newArr = strings.map((el)=>{
+//     return el.toUpperCase();
+// })
+// console.log(newArr);
+
+// const doubleAndReturnArgs = (arr, ...args) => [
+//     ...arr,
+//     ...args.map((el)=>{
+//         return el*2
+//     })
+
+// ]
+
+// console.log(doubleAndReturnArgs([1,2,3],4,5,6));
+
+// const news = (arr, ...arg) => {
+//     let double = arg.map((el) => el*2)
+//     return [...arr, double];
+// }
+
+// console.log(doubleAndReturnArgs([10, 20], 30, 40, 50));
+
+// const mergeObjects = (obj1,obj2)=>({...obj1, ...obj2});
+
+// const obj1 = { a: 1, b: 2 };
+// const obj2 = { c: 3, d: 4 };
+
+// const merged = mergeObjects(obj1, obj2);
+// console.log(merged);
